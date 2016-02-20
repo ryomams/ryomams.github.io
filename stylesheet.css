@@ -11,26 +11,35 @@ div#title {
     color: #fff;
     background-color: #f04323;
 }
+span#tittlespan {
+
+}
+span#navs{
+    font-size: 16px;
+    float:right;
+    padding-top: 16px;
+    padding-right: 15px;
+}
 div#illuminati1 {
     background-image: url('beards/thisbetterfuckingwork.gif');
     height: 21px;
-    animation-name: traingularscroll;
-    animation-duration: 600s;
+    animation: traingularscroll 0.5s infinite;
+    -webkit-animation: traingularscroll 0.5s infinite;
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
 }
 div#illuminati2 {
     background-image: url('beards/itfuckingworked.gif');
     height: 21px;
-    animation-name: traingularscrollbck;
-    animation-duration: 600s;
+    animation: traingularscrollbck 0.5s infinite;
+    -webkit-animation: traingularscrollbck 0.5s infinite;
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
 }
 div#socialmedias {
     font-family: 'Varela Round', sans-serif;
     letter-spacing: -0.5px;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-top: 0px;
     padding-bottom: 0px;
     color: #fff;
@@ -40,6 +49,9 @@ div#socialmedias {
 div#socialmedias:hover {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+a#navlink:hover {
+    color: #ffc6bb;
 }
 a:link {
     text-decoration: none;
@@ -92,9 +104,9 @@ a {
 }
 @keyframes traingularscroll {
     0%   { background-position:0%,0%;}
-    100% { background-position:-1000%,1000%;}
+    100% { background-position:-21px,21px;}
 }
 @keyframes traingularscrollbck {
     0%   { background-position:0%,0%;}
-    100% { background-position: 1000%, -1000%;}
+    100% { background-position: 21px, -21px;}
 }
