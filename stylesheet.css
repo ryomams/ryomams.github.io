@@ -3,24 +3,36 @@ body {
     margin: 0px;
 }
 div#title {
-    padding-top: 60px;
-    padding-bottom: 5px;
-    padding-left: 5px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 10px;
     font-family: 'Press Start 2P', sans-serif;
 	font-size: 32px;
     color: #fff;
     background-color: #f04323;
 }
 div#illuminati1 {
-    background-image: url('beards/illuminati.gif');
+    background-image: url('beards/thisbetterfuckingwork.gif');
     height: 21px;
+    animation-name: traingularscroll;
+    animation-duration: 600s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+div#illuminati2 {
+    background-image: url('beards/itfuckingworked.gif');
+    height: 21px;
+    animation-name: traingularscrollbck;
+    animation-duration: 600s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
 }
 div#socialmedias {
     font-family: 'Varela Round', sans-serif;
     letter-spacing: -0.5px;
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     color: #fff;
     font-style: italic;
     background-color: #ffc6bb;
@@ -29,13 +41,17 @@ div#socialmedias:hover {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-div#title:hover {
-    color: #9D82FF;
-}
 a:link {
     text-decoration: none;
     color: #fff;
     padding-right: 5px;
+}
+a#tittle:link {
+    padding-right:15px;
+    padding-bottom: 15px;
+}
+a#tittle:hover {
+    color: #ffc6bb;
 }
 a:visited {
     text-decoration: none;
@@ -73,4 +89,12 @@ a {
      -webkit-transition: all 0.15s ease-in-out;
 	-o-transition: all 0.15s ease-in-out;
 	transition: all 0.15s ease-in-out;
+}
+@keyframes traingularscroll {
+    0%   { background-position:0%,0%;}
+    100% { background-position:-1000%,1000%;}
+}
+@keyframes traingularscrollbck {
+    0%   { background-position:0%,0%;}
+    100% { background-position: 1000%, -1000%;}
 }
