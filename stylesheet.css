@@ -50,6 +50,22 @@ div#socialmedias:hover {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+div#info {
+    padding-top: 25px;
+    padding-left: 40px; 
+    text-align: right;
+    background-color: #f04323;
+    padding-right: 40px;
+    font-family: 'Varela Round', sans-serif;
+    color: #fff;
+    font-style: italic;
+}
+span#tittle2 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    font-style: normal;
+}
 a#navlink:hover {
     color: #ffc6bb;
 }
