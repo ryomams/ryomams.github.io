@@ -11,9 +11,6 @@ div#title {
     color: #fff;
     background-color: #f04323;
 }
-span#tittlespan {
-
-}
 span#navs{
     font-size: 16px;
     float:right;
@@ -21,7 +18,8 @@ span#navs{
     padding-right: 15px;
 }
 div#illuminati1 {
-    background-image: url('beards/thisbetterfuckingwork.gif');
+    background-image: url('beards/illuminati1.gif');
+    background-color: #ffc6bb;
     height: 21px;
     animation: traingularscroll 0.5s infinite;
     -webkit-animation: traingularscroll 0.5s infinite;
@@ -29,7 +27,8 @@ div#illuminati1 {
     animation-timing-function: linear;
 }
 div#illuminati2 {
-    background-image: url('beards/itfuckingworked.gif');
+    background-image: url('beards/illuminati2.gif');
+    background-color: #ffc6bb;
     height: 21px;
     animation: traingularscrollbck 0.5s infinite;
     -webkit-animation: traingularscrollbck 0.5s infinite;
@@ -51,20 +50,20 @@ div#socialmedias:hover {
     padding-bottom: 10px;
 }
 div#info {
-    padding-top: 25px;
+    padding-top: 40px;
     padding-left: 40px; 
     text-align: right;
     background-color: #f04323;
     padding-right: 40px;
     font-family: 'Varela Round', sans-serif;
     color: #fff;
-    font-style: italic;
 }
-span#tittle2 {
+div#tity {
     font-family: 'Press Start 2P', sans-serif;
     font-size: 24px;
     color: #fff;
     font-style: normal;
+    padding-bottom: 10px;
 }
 a#navlink:hover {
     color: #ffc6bb;
