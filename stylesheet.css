@@ -58,7 +58,7 @@ div#socialmedias:hover {
     padding-bottom: 10px;
 }
 div#info {
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 140px; 
     text-align: right;
     background-color: #f04323;
@@ -66,10 +66,7 @@ div#info {
     font-family: 'Varela Round', sans-serif;
     color: #fff;
     height: 273px;
-    padding-bottom: 40px;
-}
-span#para1 {
-    padding-right: 150px;
+    padding-bottom: 30px;
 }
 div#tity {
     font-family: 'Press Start 2P', sans-serif;
