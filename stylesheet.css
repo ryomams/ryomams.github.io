@@ -26,6 +26,14 @@ div#illuminati1 {
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
 }
+div#illuminati1a {
+    background-image: url('beards/illuminati1.gif');
+    height: 21px;
+    animation: traingularscroll 0.5s infinite;
+    -webkit-animation: traingularscroll 0.5s infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
 div#illuminati2 {
     background-image: url('beards/illuminati2.gif');
     background-color: #ffc6bb;
@@ -51,12 +59,17 @@ div#socialmedias:hover {
 }
 div#info {
     padding-top: 40px;
-    padding-left: 40px; 
+    padding-left: 140px; 
     text-align: right;
     background-color: #f04323;
-    padding-right: 40px;
+    padding-right: 140px;
     font-family: 'Varela Round', sans-serif;
     color: #fff;
+    height: 273px;
+    padding-bottom: 40px;
+}
+span#para1 {
+    padding-right: 150px;
 }
 div#tity {
     font-family: 'Press Start 2P', sans-serif;
