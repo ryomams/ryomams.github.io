@@ -19,7 +19,7 @@ span#navs{
 }
 div#illuminati1 {
     background-image: url('beards/illuminati5.gif');
-    background-color: #9fe7b7;
+    background-color: #afebc3;
     height: 21px;
     animation: traingularscroll 1s infinite;
     -webkit-animation: traingularscroll 1s infinite;
@@ -36,7 +36,7 @@ div#illuminati1a {
 }
 div#illuminati2 {
     background-image: url('beards/illuminati6.gif');
-    background-color: #9fe7b7;
+    background-color: #afebc3;
     height: 21px;
     animation: traingularscrollbck 1s infinite;
     -webkit-animation: traingularscrollbck 1s infinite;
@@ -51,42 +51,15 @@ div#socialmedias {
     padding-bottom: 0px;
     color: #fff;
     font-style: italic;
-    background-color: #9fe7b7;
+    background-color: #afebc3;
 }
 div#socialmedias:hover {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-div#purr1 {
-    background-color: #f04323;
-}
-img#mecfacial {
-    padding-right: 50px;
-}
-div#info {
-    padding-top: 30px;
-    text-align: left;
-    background-color: #f04323;
-    height: 273px;
-    padding-bottom: 30px;
-    max-width: 800px;
-    margin: auto;
-}
-div#tity {
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 24px;
-    color: #fff;
-    font-style: normal;
-    padding-bottom: 10px;
-    font-weight:normal;
-}
-span#para1 {
-    font-family: 'Varela Round', sans-serif;
-    color: #fff;
-    width: 50px;
-}
+
 a#navlink:hover {
-    color: #9fe7b7;
+    color: #afebc3;
 }
 a:link {
     text-decoration: none;
@@ -98,7 +71,7 @@ a#tittle:link {
     padding-bottom: 15px;
 }
 a#tittle:hover {
-    color: #9fe7b7;
+    color: #afebc3;
 }
 a:visited {
     text-decoration: none;
