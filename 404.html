@@ -19,6 +19,24 @@
             background: #000000;
             color: #fff;
         }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: rgb(25, 25, 30);
+                color: white;
+            }
+            ::selection {
+                background: #fff;
+                color: rgb(25, 25, 30);
+            }
+            ::-moz-selection {
+                background: #fff;
+                color: rgb(25, 25, 30);
+            }
+            ::-webkit-selection {
+                background: #fff;
+                color: rgb(25, 25, 30);
+            }
+        }
     </style>
 </head>
 <body>
